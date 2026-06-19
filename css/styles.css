@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #38bdf8, #8b5cf6);
+    -webkit-background-clip: text;
+    color: transparent;
+}

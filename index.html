@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/RaffyLOGO.png">
+    <title>Raffy Simon | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-slate-900/90 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center gap-3">
+                <img src="assets/images/RaffyLOGO.png" alt="Logo" class="w-10 h-10 object-contain">
+
+                <h1 class="text-2xl font-bold gradient-text">
+                    ra-pi
+                </h1>
+            </a>
+
+            <ul class="hidden md:flex gap-8">
+                <li><a href="#home" class="hover:text-sky-400">Home</a></li>
+                <li><a href="#about" class="hover:text-sky-400">About</a></li>
+                <li><a href="#skills" class="hover:text-sky-400">Skills</a></li>
+                <li><a href="#projects" class="hover:text-sky-400">Projects</a></li>
+                <li><a href="#resume" class="hover:text-sky-400">Resume</a></li>
+                <li><a href="#contact" class="hover:text-sky-400">Contact</a></li>
+            </ul>
+
+            <button id="menu-btn" class="md:hidden text-2xl">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-900">
+            <a href="#home" class="block p-4 hover:bg-slate-800">Home</a>
+            <a href="#about" class="block p-4 hover:bg-slate-800">About</a>
+            <a href="#skills" class="block p-4 hover:bg-slate-800">Skills</a>
+            <a href="#projects" class="block p-4 hover:bg-slate-800">Projects</a>
+            <a href="#resume" class="block p-4 hover:bg-slate-800">Resume</a>
+            <a href="#contact" class="block p-4 hover:bg-slate-800">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="min-h-screen flex items-center">
+        <div class="container mx-auto px-6 text-center">
+
+            <img
+                src="assets/images/PROFILE.jpg"
+                alt="Profile"
+                class="w-44 h-44 rounded-full mx-auto border-4 border-sky-500 shadow-lg"
+            >
+
+            <h2 class="text-5xl md:text-7xl font-bold mt-8">
+                Hi, I'm
+                <span class="gradient-text">
+                    Raffy Simon
+                </span>
+            </h2>
+
+            <p class="text-slate-400 max-w-2xl mx-auto mt-6 text-lg">
+                full-stack developer passionate about creating Web Applications and Software Apps
+            </p>
+
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+                <a href="#projects"
+                   class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold">
+                    View Projects
+                </a>
+
+                <a href="#contact"
+                   class="border border-slate-700 hover:border-sky-500 px-6 py-3 rounded-lg">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-24 bg-slate-900">
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-4xl font-bold text-center mb-12">
+            About Me
+        </h2>
+
+        <div class="flex justify-center mb-12">
+
+    <!-- Video 1 -->
+    <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 w-full max-w-3xl">
+        <video
+            controls
+            class="w-full aspect-video object-cover"
+            poster="assets/images/Screenshot 2026-06-07 132617.png">
+            <source src="assets/videos/loweredsize_pc-build.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="p-4 text-center">
+            <a
+                href="https://youtu.be/PeVCUXh0Jog"
+                target="_blank"
+                class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-red-500/40 active:scale-95">
+                Watch on YouTube
+            </a>
+        </div>
+    </div>
+
+</div>
+
+            <!-- About Content -->
+            <div>
+
+                <p class="text-slate-400 text-lg leading-relaxed mb-8">
+                    I'm a Computer Science Graduate who enjoys building
+                    websites, mobile applications, desktop systems, and
+                    games. I love learning new technologies and turning
+                    ideas into useful digital products. 
+                    I also like building PC the first one is my own PC then started 
+                    building for my cousins and friends and I also built one for
+                    someone I don't know just a friend of my friend. 
+                    I also do basic repair and trouble shooting for laptop and PC, shockingly
+                    I got some clients who want me to repair or upgrade their laptop or PC.   
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Skills
+            </h2>
+
+            <div class="grid md:grid-cols-4 gap-6">
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-html5-plain text-5xl mb-4 text-orange-500"></i>
+                    <h3 class="font-bold text-xl">HTML5</h3>
+
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>90%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-orange-500 h-2 rounded-full w-[90%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-css3-plain text-5xl mb-4 text-blue-500"></i>
+                    <h3 class="font-bold text-xl">CSS3</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>85%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-blue-500 h-2 rounded-full w-[85%]"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-javascript-plain text-5xl mb-4 text-yellow-400"></i>
+                    <h3 class="font-bold text-xl">JavaScript</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>80%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-yellow-400 h-2 rounded-full w-[80%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-php-plain text-5xl mb-4 text-indigo-400"></i>
+                    <h3 class="font-bold text-xl">PHP</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>75%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-indigo-500 h-2 rounded-full w-[75%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-java-plain text-5xl mb-4 text-red-500"></i>
+                    <h3 class="font-bold text-xl">Java</h3>
+                    
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-red-500 h-2 rounded-full w-[70%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-csharp-plain text-5xl mb-4 text-purple-500"></i>
+                    <h3 class="font-bold text-xl">C#</h3>
+
+                     <div>
+                        <div class="flex justify-between mb-1">
+                            <span>75%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-purple-500 h-2 rounded-full w-[75%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-mysql-original text-5xl mb-4"></i>
+                    <h3 class="font-bold text-xl">MySQL</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-white h-2 rounded-full w-[70%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-flutter-plain text-5xl mb-4 text-blue-400"></i>
+                    <h3 class="font-bold text-xl">Flutter</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-blue-400 h-2 rounded-full w-[70%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-react-original text-5xl mb-4 text-cyan-400"></i>
+                    <h3 class="font-bold text-xl">React</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>60%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-sky-400 h-2 rounded-full w-[60%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-tailwindcss-original text-5xl mb-4 text-cyan-400"></i>
+                    <h3 class="font-bold text-xl">Tailwind CSS</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>65%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-sky-400 h-2 rounded-full w-[65%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-dotnetcore-plain text-5xl mb-4 text-violet-500"></i>
+                    <h3 class="font-bold text-xl">.NET Framework</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>75%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-purple-500 h-2 rounded-full w-[75%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-slate-900 p-6 rounded-xl text-center hover:-translate-y-2 hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-300">
+                    <i class="devicon-python-plain text-5xl mb-4 text-yellow-400"></i>
+                    <h3 class="font-bold text-xl">Python</h3>
+
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>70%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-2">
+                            <div class="bg-yellow-400 h-2 rounded-full w-[70%]"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-24 bg-slate-900">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Projects
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                
+    <!-- Project 1 -->
+
+<div class="bg-slate-800 rounded-xl overflow-hidden hover:-translate-y-2 transition-all duration-300">
+
+        <video
+            controls
+            class="w-full h-56 object-cover"
+            poster="">
+            <source src="assets/videos/tunatrikespeedupver.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">
+                Tuna Trike
+            </h3>
+
+            <p class="text-slate-400 mb-4">
+                A transportation booking platform designed for local tricycle services.
+            </p>
+
+            <a href="https://youtu.be/XqusRGmoOTw"
+                target="_blank"
+                class="inline-flex items-center gap-2 bg-red-600 px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-xl hover:shadow-red-500/40">
+                Watch on YouTube
+            </a>
+        </div>
+
+    </div>
+
+    <!-- BoyGatas -->
+    <div class="bg-slate-800 rounded-xl overflow-hidden hover:-translate-y-2 transition-all duration-300">
+
+        <img
+            src="assets/images/boygatas.png"
+            alt="BoyGatas"
+            class="w-full h-56 object-cover"
+        >
+
+        <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">
+                Website for Business
+            </h3>
+
+            <p class="text-slate-400 mb-4">
+                This website is a multi-business platform that showcases and connects various services under one website.
+            </p>
+
+            <a href="https://boygatas.com/index.html"
+                class="text-sky-400 hover:text-sky-300 font-semibold">
+                View Project →
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Project 3 (Video Placeholder) -->
+    <div class="bg-slate-800 rounded-xl overflow-hidden hover:-translate-y-2 transition-all duration-300">
+
+        <video
+            controls
+            class="w-full h-56 object-cover"
+            poster="assets/images/Screenshot 2026-06-07 132807.png">
+            <source src="assets/videos/vid-2d-game_lowered_version.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">
+                2D Game Showcase
+            </h3>
+
+            <p class="text-slate-400 mb-4">
+                Gameplay from my 2D game project. The level amount is small
+            </p>
+
+            <a href="https://youtu.be/-4MQw5sDW7Y"
+                target="_blank"
+                class="inline-flex items-center gap-2 bg-red-600 px-4 py-2 rounded-lg font-semibold transition-all duration-300 hover:bg-red-700 hover:scale-105 hover:shadow-xl hover:shadow-red-500/40">
+                Watch on YouTube
+            </a>
+        </div>
+
+    </div>
+
+   
+    </section>
+
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-24 bg-slate-950 text-white">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                My Resume
+            </h2>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+
+                <!-- LEFT SIDEBAR -->
+                <div class="bg-slate-900 rounded-2xl p-6 space-y-8">
+
+                    <!-- Profile -->
+                    <div class="text-center">
+                        <img src="assets/images/profilepic.jpg"
+                            class="w-32 h-32 mx-auto rounded-full border-4 border-sky-500">
+
+                        <h3 class="text-xl font-bold mt-4">Raffy G. Simon</h3>
+                        <p class="text-slate-400 text-sm">Web & Software Developer</p>
+                    </div>
+
+                    <!-- Contact -->
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 border-b border-slate-700 pb-2">
+                            Contact
+                        </h4>
+
+                        <p class="text-slate-400 text-sm">+639758029786</p>
+                        <p class="text-slate-400 text-sm">raffywork327@gmail.com</p>
+                        <p class="text-slate-400 text-sm">General Santos City</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 border-b border-slate-700 pb-2">
+                            Skills
+                        </h4>
+
+                        <p class="text-slate-400 text-sm">HTML</p>
+                        <p class="text-slate-400 text-sm">CSS</p>
+                        <p class="text-slate-400 text-sm">JavaScript</p>
+                        <p class="text-slate-400 text-sm">Tailwind</p>
+                        <p class="text-slate-400 text-sm">CSS</p>
+                        <p class="text-slate-400 text-sm">React</p>
+                        <p class="text-slate-400 text-sm">PHP</p>
+                        <p class="text-slate-400 text-sm">MySQL</p>
+                        <p class="text-slate-400 text-sm">C#</p>
+                        <p class="text-slate-400 text-sm">Java</p>
+                        <p class="text-slate-400 text-sm">Flutter</p>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 border-b border-slate-700 pb-2">
+                            Soft Skills
+                        </h4>
+
+                        <p class="text-slate-400 text-sm">Flexibility</p>
+                        <p class="text-slate-400 text-sm">Teamwork</p>
+                        <p class="text-slate-400 text-sm">Work ethic</p>
+                        <p class="text-slate-400 text-sm">Integrity</p>
+                        <p class="text-slate-400 text-sm">Personal and professional courtesy</p>
+                    </div>
+
+                    <!-- Languages -->
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 border-b border-slate-700 pb-2">
+                            Languages
+                        </h4>
+
+                        <p class="text-slate-400 text-sm">English</p>
+                        <p class="text-slate-400 text-sm">Tagalog</p>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="lg:col-span-2 space-y-8">
+
+                    <!-- Introduction -->
+                    <div class="bg-slate-900 rounded-2xl p-6">
+                        <h3 class="text-2xl font-bold mb-4">Introduction</h3>
+                        <p class="text-slate-400 leading-relaxed">
+                            Hello! I am Raffy G. Simon, and I am a Bachelor of Science in Computer Science Graduate at STI College General Santos City. 
+                            I have a passion for technology and enjoy working on a variety of projects, 
+                            including games, websites, desktop applications, and mobile apps.
+                        </p>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="bg-slate-900 rounded-2xl p-6">
+                        <h3 class="text-2xl font-bold mb-4">Experience</h3>
+
+                        <div class="space-y-4 text-slate-400 text-sm">
+
+                            <div>
+                                <h4 class="text-white font-semibold">Web Developer for Razo Group Of Company</h4>
+                                <p>Developed a responsive multi-business company website using HTML, CSS, and JavaScript to showcase various services with a clean and user-friendly interface.</p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">IT Support Technician for JM-ECCOM</h4>
+                                <p>Provided technical support, computer assembly and upgrades, software installation and troubleshooting, printer maintenance, user assistance, 
+                                    preventive maintenance, and administrative support including data encoding and document preparation.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">Fiber Optic Installation & Maintenance Technician for JM-ECCOM</h4>
+                                <p>Fiber Optic Installation Technician with experience installing, testing, and troubleshooting residential internet services. 
+                                    Skilled in fiber cable deployment, router configuration, network diagnostics, and Cisco equipment setup. Experienced in identifying and resolving connectivity issues while delivering reliable customer service and ensuring successful network activation.
+
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">Mobile App Developer for my Thesis</h4>
+                                <p>Using Flutter, I created a ride hailing mobile application for tricycle in general santos city it is functional and smooth in any android device. 
+                                    I use Google api for gps then firebase for the database no need CSS, since flutter is already a single language for back and front end. 
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">Econder in ABS Company</h4>
+                                <p>Accurately encoding and updating customer information, including mobile numbers, email addresses, names, and addresses, ensuring data integrity and confidentiality. 
+                                    typing speed of 46 words per minute and accuracy of 100%, ensuring efficiency.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">Call Center Agent in ABS Company</h4>
+                                <p>Worked as an Outbound Call Center Agent at ABS Company, contacting potential and existing customers to promote insurance products, including car, health, and home insurance. 
+                                    Provided detailed information on coverage options, answered customer inquiries, and assisted clients in selecting policies that met their needs.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">Web Developer for School Exposition</h4>
+                                <p>Using PHP, SQL, and CSS, I created an inventory website for Russan company, guaranteeing its functionality and smooth database integration. 
+                                    Using CSS, responsive and user-friendly web interfaces were designed and put into use. 
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-white font-semibold">Web Developer in Custard Apple</h4>
+                                <p>Developed websites using PHP, SQL, JavaScript, and CSS, ensuring functionality, design quality, and seamless database integration. 
+                                    Designed and implemented responsive, user-friendly web interfaces using CSS, focusing on layout, typography, and visual aesthetics to enhance user experience and maintain brand consistency.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="bg-slate-900 rounded-2xl p-6">
+                        <h3 class="text-2xl font-bold mb-4">Education</h3>
+
+                        <p class="text-slate-400 text-sm">
+                            Bachelor of Science in Computer Science<br>
+                            STI College General Santos City
+                            <br><br>
+                            Mobile Application and Web Development (SHS)<br>
+                            STI College General Santos City
+                            <br><br>
+                            Electrical Installation Management<br>
+                            General Santos City National Secondary School of Arts and Trades
+                        </p>
+                    </div>
+
+                    <!-- Download CV Button -->
+                    <div class="text-center">
+                        <a href="assets/Raffy_CV.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-block bg-sky-500 hover:bg-sky-600 px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+                            Download CV
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-24">
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Contact Me
+            </h2>
+
+            <div class="max-w-2xl mx-auto">
+
+                <form id="contact-form" class="space-y-6">
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your Name"
+                        class="w-full p-4 bg-slate-900 rounded-lg border border-slate-700 focus:outline-none"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your Email"
+                        class="w-full p-4 bg-slate-900 rounded-lg border border-slate-700 focus:outline-none"
+                        required
+                    >
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Your Message"
+                        class="w-full p-4 bg-slate-900 rounded-lg border border-slate-700 focus:outline-none"
+                        required
+                    ></textarea>
+
+                    <button
+                        id="submitBtn"
+                        type="submit"
+                        class="bg-sky-500 hover:bg-sky-600 px-8 py-3 rounded-lg font-semibold">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Success/Error Modal -->
+    <div id="popup-modal"
+        class="fixed inset-0 bg-black/60 hidden items-center justify-center z-50">
+
+        <div id="popup-box"
+            class="bg-slate-900 border border-slate-700 rounded-2xl p-8 w-[90%] max-w-md text-center scale-95 opacity-0 transition-all duration-300">
+
+            <div id="popup-icon" class="text-5xl mb-4 text-green-400">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+
+            <h3 id="popup-title" class="text-2xl font-bold mb-2">
+                Success
+            </h3>
+
+            <p id="popup-message" class="text-slate-400 mb-6">
+                Email sent successfully!
+            </p>
+
+            <button id="popup-close"
+                class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+                OK
+            </button>
+        </div>
+    </div>
+
+    <div class="flex justify-center gap-6 mb-10 flex-wrap">
+                
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/raffymasarap"
+                    target="_blank"
+                    class="group"
+                    title="Open facebook">
+                    <i class="fa-brands fa-facebook text-5xl text-blue-500 transition-all duration-300 group-hover:scale-125 group-hover:rotate-6 group-hover:drop-shadow-[0_0_15px_rgba(59,130,246,0.8)]"></i>
+                </a>
+
+                <!-- Gmail -->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=raffywork327@gmail.com"
+                    target="_blank"
+                    class="group"
+                    title="Send Email">
+                    <i class="fa-solid fa-envelope text-5xl text-red-500 transition-all duration-300 group-hover:scale-125 group-hover:-rotate-6 group-hover:drop-shadow-[0_0_15px_rgba(239,68,68,0.8)]"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/raffy-simon-62465436b/"
+                    target="_blank"
+                    class="group"
+                    title="LinkedIn">
+                    <i class="fa-brands fa-linkedin text-5xl text-sky-500 transition-all duration-300 group-hover:scale-125 group-hover:-rotate-6 group-hover:drop-shadow-[0_0_15px_rgba(14,165,233,0.8)]"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@balut-masarap"
+                    target="_blank"
+                    class="group"
+                    title="Open Youtube">
+                    <i class="fa-brands fa-youtube text-5xl text-red-600 transition-all duration-300 group-hover:scale-125 group-hover:rotate-6 group-hover:drop-shadow-[0_0_15px_rgba(220,38,38,0.8)]"></i>
+                </a>
+
+            </div>
+
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500">
+        © 2026 Raffy Simon. All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/emailjs.js"></script>
+    <script src="js/popupnotif.js"></script>
+</body>
+</html>
