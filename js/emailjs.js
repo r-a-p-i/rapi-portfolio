@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
+    
+        const btn = document.getElementById("submitBtn");
+        btn.disabled = true;
+        btn.textContent = "Sending...";
 
         const templateParams = {
             name: document.getElementById("name").value,
@@ -21,6 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(function (error) {
                 showPopup("error", "Failed to send email. Please try again.");
                 console.log(error);
+            })
+            .finally(function () {
+                btn.disabled = false;
+                btn.textContent = "Send Message";
             });
     });
 });
