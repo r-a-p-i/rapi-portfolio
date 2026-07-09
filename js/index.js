@@ -22,11 +22,3 @@ document.querySelectorAll('.skill-bar').forEach(bar => {
         bar.style.transition = 'width 1.5s ease';
     }, 300);
 });
-
-//button
-document.getElementById('contact-form').addEventListener('submit', function() {
-    const btn = document.getElementById('submitBtn');
-
-    btn.disabled = true;
-    btn.textContent = 'Sending...';
-});
